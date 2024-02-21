@@ -1,0 +1,87 @@
+$padding: 1 2 3 4 5 6;
+@each $p in $padding {
+  .pblock-sm-#{$p} {
+    padding-block: $p + xp;
+  }
+  .pblock-n-#{$p} {
+    padding-block: $p + xp;
+  }
+  .pblock-md-#{$p} {
+    padding-block: $p + xp;
+  }
+  .pblock-lg-#{$p} {
+    padding-block: $p + xp;
+  }
+  .pblock-xl-#{$p} {
+    padding-block: $p + xp;
+  }
+  .pblock-xxl-#{$p} {
+    padding-block: $p + xp;
+  }
+}
+
+$padding: 1 2 3 4 5 6;
+@each $p in $padding {
+  .pinline-sm-#{$p} {
+    padding-inline: $p + xp;
+  }
+  .pinline-n-#{$p} {
+    padding-inline: $p + xp;
+  }
+  .pinline-md-#{$p} {
+    padding-inline: $p + xp;
+  }
+  .pinline-lg-#{$p} {
+    padding-inline: $p + xp;
+  }
+  .pinline-xl-#{$p} {
+    padding-inline: $p + xp;
+  }
+  .pinline-xxl-#{$p} {
+    padding-inline: $p + xp;
+  }
+}
+
+$margin: 1 2 3 4 5 6;
+@each $m in $margin {
+  .mblock-sm-#{$m} {
+    margin-block: $m + xp;
+  }
+  .mblock-n-#{$m} {
+    margin-block: $m + xp;
+  }
+  .mblock-md-#{$m} {
+    margin-block: $m + xp;
+  }
+  .mblock-lg-#{$m} {
+    margin-block: $m + xp;
+  }
+  .mblock-xl-#{$m} {
+    margin-block: $m + xp;
+  }
+  .mblock-xxl-#{$m} {
+    margin-block: $m + xp;
+  }
+}
+
+$margin: 1 2 3 4 5 6;
+@each $m in $margin {
+  .minline-sm-#{$m} {
+    margin-inline: $m + xp;
+  }
+  .minline-n-#{$m} {
+    margin-inline: $m + xp;
+  }
+  .minline-md-#{$m} {
+    margin-inline: $m + xp;
+  }
+  .minline-lg-#{$m} {
+    margin-inline: $m + xp;
+  }
+  .minline-xl-#{$m} {
+    margin-inline: $m + xp;
+  }
+  .minline-xxl-#{$m} {
+    margin-inline: $m + xp;
+  }
+}

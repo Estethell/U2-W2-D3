@@ -1,0 +1,8 @@
+$color-button: #0e6cff, #ff8700, #4caf50;
+
+@each $color in $color-button {
+  $index: index($color-button, $color);
+  .bnt-#{$index} {
+    background-color: nth($color-button, $index);
+  }
+}

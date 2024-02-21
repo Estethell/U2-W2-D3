@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+
+$size: 400px 600px;
+
+@each $s in $size {
+  .size-1#{$s} {
+    font-weight: $s + 400;
+  }
+  .size-2#{$s} {
+    font-weight: $s + 600;
+  }
+}
+
+@mixin title-big {
+  color: rgb(211, 79, 182);
+  font-size: 35px;
+  margin: 1em;
+  width: 50%;
+  text-align: center;
+}
